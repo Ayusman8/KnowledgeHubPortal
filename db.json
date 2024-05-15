@@ -1,0 +1,52 @@
+{
+  "categories": [
+    {
+      "id": "444",
+      "title": "Games IPL",
+      "description": "Good for school sportsman"
+    },
+    {
+      "id": "555",
+      "title": ".Net",
+      "description": "Good for school students"
+    },
+    {
+      "id": "666",
+      "title": "Java",
+      "description": "Good for school students"
+    },
+    {
+      "id": "777",
+      "title": "JavaScript",
+      "description": "Good for school students"
+    },
+    {
+      "id": "111",
+      "title": "IPL",
+      "description": "IPL"
+    }
+  ],
+  "user": [
+    {
+      "id": "7124",
+      "fullname": "Ayusman Panda",
+      "email": "ayusman@email.com",
+      "password": "12345"
+    },
+    {
+      "id": "8fd0",
+      "fullname": "ayusmanPanda5001",
+      "email": "panda.ayusman4@gmail",
+      "password": "asdsad"
+    }
+  ],
+  "submittedUrl": [
+    {
+      "id": "aeab",
+      "title": "Royal Enfield Himalayan 450 Specifications",
+      "url": "https://www.zigwheels.com/royal-enfield-bikes/himalayan",
+      "description": "The Royal Enfield Himalayan has a high demand, because of which there are a few months of waiting period in some parts of the country. Here’s how long you will have to wait if you want to buy the 450cc ADV.\n\nThe Himalayan 450’s prices have been hiked across all colour variants. Royal Enfield has also revealed prices of some of the accessories that the Himalayan will come with.",
+      "category": "IPL"
+    }
+  ]
+}
