@@ -1,9 +1,10 @@
 import { Component, inject } from '@angular/core';
 import { Category } from '../models/category';
 import { CategoriesService } from '../services/categories.service';
-import { ReactiveFormsModule, FormGroup, FormBuilder, Validators} from '@angular/forms';
+import { ReactiveFormsModule, FormBuilder, Validators} from '@angular/forms';
 import { SubmiturlService } from '../services/submiturl.service';
 import { submiturl } from '../models/submitURL';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-submiturl',
@@ -18,7 +19,7 @@ export class SubmiturlComponent {
   private submitUrlService:SubmiturlService=inject(SubmiturlService);
 
 
-  constructor(private fb:FormBuilder){}
+  constructor(private fb:FormBuilder, private router:Router){}
   categories: Category[] = [];
 
   ngOnInit(): void {
@@ -44,6 +45,7 @@ export class SubmiturlComponent {
         };
         this.submitUrlService.addUrl(url).subscribe(res =>{
           alert("Successfully submitted URL Form");
+          this.router.navigateByUrl('category/list');
         });
       }
     }

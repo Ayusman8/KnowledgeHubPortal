@@ -24,6 +24,11 @@
       "id": "111",
       "title": "IPL",
       "description": "IPL"
+    },
+    {
+      "id": "154",
+      "title": "E-Sport",
+      "description": "Good for gamers"
     }
   ],
   "user": [
@@ -47,6 +52,13 @@
       "url": "https://www.zigwheels.com/royal-enfield-bikes/himalayan",
       "description": "The Royal Enfield Himalayan has a high demand, because of which there are a few months of waiting period in some parts of the country. Here’s how long you will have to wait if you want to buy the 450cc ADV.\n\nThe Himalayan 450’s prices have been hiked across all colour variants. Royal Enfield has also revealed prices of some of the accessories that the Himalayan will come with.",
       "category": "IPL"
+    },
+    {
+      "id": "328c",
+      "title": "BGIS 2024 Round 3 Schedule, Format, and more",
+      "url": "https://www.insidesport.in/bgmi/bgis-2024-round-3-schedule-format-and-more/",
+      "description": "Battlegrounds Mobile India Series 2024 Round 2 matches are over now. In Round-2, 512 Teams i.e., 480 teams from the Round-1 and 32 teams (33rd – 64th ranked) from The Grind grouped into 32 groups. 224 teams i.e., the top 7 teams from each group advanced to BGIS 2024 Round 3. Additionally, the Top 16 teams based on the overall standings among the remaining teams qualify for Round-3.",
+      "category": "E-Sport"
     }
   ]
 }
